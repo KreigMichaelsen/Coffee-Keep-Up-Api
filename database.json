@@ -1,0 +1,169 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Kreig",
+      "email": "kreigmichaelsen@gmail.com",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "fullName": "Kailee",
+      "email": "kailee@kailee.com",
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "fullName": "Jonathan",
+      "email": "jonathan@jonathan.com",
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "fullName": "Jaymes",
+      "email": "jaymes@jaymes.com",
+      "isAdmin": true
+    },
+    {
+      "id": 5,
+      "fullName": "Kelly",
+      "email": "kelly@kelly.com",
+      "isAdmin": false
+    },
+    {
+      "id": 6,
+      "fullName": "Dave",
+      "email": "dave@dave.com",
+      "isAdmin": false
+    }
+  ],
+  "coffeeShops": [
+    {
+      "id": 1,
+      "name": "Steadfast Coffee",
+      "address": "603 Taylor St, Nashville, TN 37208",
+      "phoneNumber": "(615) 891-7424",
+      "picture": "https://vanderbilthustler.com/wp-content/uploads/2018/09/IMG_5606-2.jpg",
+      "description": "Steadfast Coffee is located in the bustling Germantown neighborhood on Taylor Street. They roast their own coffee and serve breakfast and lunch daily until 2:00pm. When weather permits, we recommend having your coffee on their spacious outdoor patio—dogs are welcome!"
+    },
+    {
+      "id": 2,
+      "name": "Honest Coffee Roasters",
+      "address": "3820 Charlotte Ave #135, Nashville, TN 37209",
+      "phoneNumber": "(615) 739-6820",
+      "picture": "https://landlmarket.com/images/hcr-1-72.jpg",
+      "description": "Honest Coffee Roasters is situated within L&L Market in The Nations. This modern, mid-century-designed cafe is surrounded by a variety of food kiosks, small boutiques, a yoga studio, and more. A great spot to check out on a rainy afternoon! Honest Coffee Roasters partners with hardworking farmers who create high-quality, fresh coffee."
+    },
+    {
+      "id": 3,
+      "name": "Sump Coffee",
+      "address": "8 City Blvd, Nashville, TN 37209",
+      "phoneNumber": "(615) 678-1286",
+      "picture": "https://nashvilleguru.com/officialwebsite/wp-content/uploads/2022/09/Nashville-Coffee-Shops-26-1024x682.jpg",
+      "description": "Sump Coffee is off the beaten path in the OneC1ty development between West End and Charlotte Avenue. Sump Coffee specializes in the perfect pour-over and sells delicious Dozen Bakery pastries daily. If you take your coffee very seriously, this is the place for you."
+    },
+    {
+      "id": 4,
+      "name": "Crema Coffee Roasters",
+      "address": "15 Hermitage Ave, Nashville, TN 37210",
+      "phoneNumber": "(615) 255-8311",
+      "picture": "https://img.ctykit.com/cdn/tn-nashville/images/tr:w-1800/crema-1.jpg",
+      "description": "Crema has a location in SoBro (pictured above) that is just a short walk from Lower Broadway and in East Nashville on Duke Street. This popular coffee shop is serious about its in-house coffee program and its passion is contagious. They even teach coffee classes typically offered every Friday during the college semesters to help students become more confident with their coffee skills. Each class is limited to 3-6 students for a more hands-on experience."
+    },
+    {
+      "id": 5,
+      "name": "Retrograde Coffee",
+      "address": "1305 Dickerson Pike, Nashville, TN 37207",
+      "phoneNumber": "(615) 964-7770",
+      "picture": "https://smithgeestudio.com/wp-content/uploads/2023/02/49A5283-enhanced-scaled-1920x1000.jpg",
+      "description": "Retrograde Coffee is a quaint neighborhood spot situated on Dickerson Pike. Whether you’re looking to enjoy some time alone or with a friend, this cafe is the spot for you. Need a quick fix? Order online for to-go. Also, their sourdough bagels are made in-house daily."
+    },
+    {
+      "id": 6,
+      "name": "Elixr Coffee",
+      "address": "5045 Broadway, Nashville, TN 37203",
+      "phoneNumber": "",
+      "picture": "https://sprudge.com/wp-content/uploads/2021/06/Elixr-Nashville-5.jpg",
+      "description": "Elixr is an adorable coffee shop located at Fifth + Broadway in Downtown Nashville. Their pink strawberry milk latte is a crowd favorite, it tastes as delicious as it looks. This cafè can get pretty busy on the weekends, so consider yourself lucky if you get a seat."
+    },
+    {
+      "id": 7,
+      "name": "8th & Roast",
+      "address": "2108 8th Ave S, Nashville, TN 37204",
+      "phoneNumber": "(615) 730-8074",
+      "picture": "https://images.squarespace-cdn.com/content/v1/5b5b0b71af20967c209788ad/1618277972121-6QFH89IHT1E7GPS3YZEW/8th+%26+Roast+September_0053+%281%29.JPG?format=2500w",
+      "description": "8th & Roast has two locations on 8th Avenue South and Charlotte Avenue. The Charlotte Avenue location in Sylvan Park is much bigger and more modern but still maintains the cozy coffee shop vibe. For a more intimate coffee outing, head over to the original location on 8th Avenue South across from Zanies Comedy Club. The environment is warm with community tables, bar seating, and a calming atmosphere."
+    },
+    {
+      "id": 8,
+      "name": "Americano Lounge",
+      "address": "434 Houston St Suite 120, Nashville, TN 37203",
+      "phoneNumber": "(629) 203-6991",
+      "picture": "https://images.squarespace-cdn.com/content/v1/5a7cbe247131a5f17b3cc8fc/1551469733704-730595UL0PYE9I1ZXZ4X/annelise_loughead-6566.jpg?format=2500w",
+      "description": "Whether you need a caffeine fix or a spirited cocktail, Americano Lounge offers both. This New York-style lounge was built by the owner, Cody Pellerin. Pellerin and his team completed all of the construction, buildout, design, woodwork, and lighting. And the hard work doesn’t stop there; everything is created in-house, from the pastries to the coffee to the sodas. If you respect high-quality coffee, this spot is a must-visit."
+    }
+  ],
+  "userCoffeeShops": [
+    {
+      "userId": 1,
+      "coffeeShopId": 8,
+      "hasVisited": false,
+      "rating": 0,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "coffeeShopId": 3,
+      "hasVisited": false,
+      "rating": 0,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "coffeeShopId": 7,
+      "hasVisited": false,
+      "rating": 0,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "coffeeShopId": 2,
+      "hasVisited": true,
+      "rating": 0,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "coffeeShopId": 5,
+      "hasVisited": false,
+      "rating": 0,
+      "id": 5
+    }
+  ],
+  "reviews": [
+    {
+      "userId": 5,
+      "coffeeShopId": 2,
+      "rating": 5,
+      "comment": "Honest Coffee captures the essence of simplicity and excellence in every cup. This coffee shop is a haven for those who value a genuine coffee experience. From its decor to the robust aroma that envelops you upon entry, Honest Coffee is a true gem.",
+      "timeStamp": 1692106884121,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "coffeeShopId": 2,
+      "rating": 4,
+      "comment": "Honest Coffee lives up to its name by delivering an authentic coffee encounter. It's a place where the complexities of life momentarily fade away, replaced by the simple pleasure of savoring a well-crafted cup of coffee. Whether you're a coffee purist or someone seeking a tranquil space to unwind, Honest Coffee offers a respite from the noise of the outside world.",
+      "timeStamp": 1692106950600,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "coffeeShopId": 2,
+      "rating": 5,
+      "comment": "Honest Coffee encapsulates the essence of a great coffee shop: it's a place where you can find solace, community, and exceptional coffee—all in one spot. Whether you're seeking a quick caffeine boost on a busy morning or aiming to savor a quiet moment in the afternoon, this coffee haven delivers.",
+      "timeStamp": 1692107038493,
+      "id": 4
+    }
+  ]
+}
